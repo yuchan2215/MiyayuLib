@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>jp.miyayu</groupId>
     <artifactId>MiyayuLib</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
     <packaging>jar</packaging>
 
     <name>MiyayuLib</name>
@@ -41,9 +41,9 @@
                     <branch>refs/heads/mvn-repo</branch>
                     <includes><include>**/*</include></includes>
                     <!-- Github リポジトリ名 -->
-                    <repositoryName>${repositoryName}</repositoryName>
+                    <repositoryName>MiyayuLib</repositoryName>
                     <!-- Github リポジトリユーザー名 -->
-                    <repositoryOwner>${ownerName}</repositoryOwner>
+                    <repositoryOwner>yuchan2215</repositoryOwner>
                 </configuration>
                 <executions>
                     <execution>
